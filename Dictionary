@@ -1,4 +1,4 @@
 This is the dictionary for my DFD
 
-Developer - A person that submits software packages to be searched for OSS components and used to populate the OSS component database.
-Manager - An external user who requests data from the OSS Component Database.
+Developer - A person that submits software packages to be scanned for license and vulnerabilities
+Manager - A person that requests, from the OSS database, information about the lincense and vulnerabilities
