@@ -1,12 +1,15 @@
 ##Use Case 1:
 
-**Title:** Determining Software Project License and Vulnerability Information
+**Title:** Determine Software Project License and Vulnerability Information
 
 **Primary Actor:** Manager
 
-**Goal in Context:** Manager is able to get license and vulnerability information from provided project information.
+**Goal in Context:** Manager is able to get license and vulnerability information from project information.
 
-**Stakeholders:** Manager:to provide clear and relevant information. Developer: To provide the relevant package information. Project Owner: The person who owns and runs the project.
+**Stakeholders:**
+  Manager:to provide clear and relevant information. 
+  Developer: To provide the relevant package information. 
+  Project Owner: The person who owns and runs the project.
 
 **Preconditions:** Relevant package information is uploaded to the database. Proper project information has been uploaded to the database.
 
