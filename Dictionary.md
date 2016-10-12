@@ -7,11 +7,13 @@ This is the dictionary
 
 ## Datastores
 **NIST Known Vulnerability DB** - Repository of known vulnerabilities maintained by the U.S. Government for checking the software package. **Software Project License and Vulnerability Policy** - Database that contains Policy documents for associated software packages  
-**Software Package & License Info** - Database that stores software package, license and vulnerability information.  
+**OSS Package License and Vulnerability Database** - Database that stores software package, license and vulnerability information.  
 
 ## Processes
-**Retrieve associated policies for corresponding software project** - Process that retrieves policy request information for corresponding software projects based on Developer and Manager request.  
-**Checked for OSS Components** - Process that checks for open source software in the file.  
-**Policy documents submitted or modified** - Process where Manager submits or modifies policy documents.  
-**Retrieve full list of Projects and Corresponding License Info** - Process that retrieves requested information from the Software Package & License Info per Manager request.  
-**Scan for Licenses** - Process that scans for any licenses that can be found in the program.
+**Manage Software Packages** - Process that handles the software packages submitted by developer and prepares them for license scanning. Also checks NIST DB for vulnerabilities. Returns information to developper and OSS Package Database.
+**Scan for Licenses** - Process that scans submitted software for OSS licenses
+**Retrieve Full Software Package & License Information** - Process that retrieves all software and license information for a packags. Can be requested by the Manager or Developer. 
+**Retrieve All Policy Documents for Current Project** - Process where Manager or Developer requests OSS policy documents for current project.  
+**Modify or Add to OSS Policy Documents DB** - Process where Manager submits to contripute or modify OSS policy documents.  
+ 
+
