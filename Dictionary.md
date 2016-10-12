@@ -17,4 +17,8 @@ This is the dictionary
 **Retrieve All Policy Documents for Current Project** - Process where Manager or Developer requests OSS policy documents for current project.    
 **Modify or Add to OSS Policy Documents DB** - Process where Manager submits to contripute or modify OSS policy documents.    
  
+## Data Flows
+**Software Package** - The package of OSS software that the Developer submits for scanning.  
+**Software Package Name** - How the software package can be identified  
+**Known Software Vulnerabilities Results** - Information submitted from NIST regarding known vulnerabilities in a software Package.  
 
