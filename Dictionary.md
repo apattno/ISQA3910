@@ -1,5 +1,5 @@
-This is the dictionary
-# DFD Dictionary
+
+# Data Dictionary for DFD
 
 ## Entities
 **Developer** - Person responsible for all the coding the main software packages and preparing for the license scan.    
@@ -26,5 +26,5 @@ This is the dictionary
 **Request OSS Package Licenses and Vulnerability for Project** - A request from a manager or a developer to the OSS Package Database for information on License and vulnerbility  
 **Results of Request for License and Vulnerability for Project** - Information returned to the Developer or Manager from the request submitted to OSS Database.  
 **Project Policy Document Request** - Request from a Manager or Developer for the policy documents regarding the software project, sent to the OSS Policy Document Database.  
-**Results of OSS Policy Document Request** - The results concerning the policy documents of a software package, retrieved through a query to the OSS Policy Document Database.
-**Request to Modify Policy Documents** - 
+**Results of OSS Policy Document Request** - The results of the request from the Manager or Developer for policy documents of a software package, retrieved from the OSS Policy Document Database.  
+**Request to Modify Policy Documents Database** - A request sent by a Manager to create or modify the policy documents database, these requests are sent through the process to the policy document database.
