@@ -3,11 +3,10 @@ This is the dictionary
 
 ## Entities
 **Developer** - Person responsible for all the coding the main software packages and preparing for the license scan.  
-**Manager** - Advisor for the software packages.
+**Manager** - Person responsible for the overall project and requests information from the the Package and policy DB's
 
 ## Datastores
-**NIST Vulnerability DB** - Database that contains any known vulnerabilities in the software package.  
-**Software Project License and Vulnerability Policy** - Database that contains Policy documents for associated software packages  
+**NIST Known Vulnerability DB** - Repository of known vulnerabilities maintained by the U.S. Government for checking the software package. **Software Project License and Vulnerability Policy** - Database that contains Policy documents for associated software packages  
 **Software Package & License Info** - Database that stores software package, license and vulnerability information.  
 
 ## Processes
